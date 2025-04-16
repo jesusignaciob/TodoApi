@@ -1,0 +1,61 @@
+# IDE y entornos de desarrollo
+.vscode/
+.idea/
+*.user
+*.suo
+*.userprefs
+
+# Archivos binarios y de compilación
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.config
+
+# Archivos de publicación
+publish/
+*.pubxml
+
+# Dependencias
+packages/
+[Nn]u[Gg]et.[Ll]ocal/
+*.nupkg
+
+# Logs y diagnósticos
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+build/
+
+# Archivos de usuario
+*.swp
+*.swo
+*~
+
+# Archivos de configuración local
+appsettings.Development.json
+appsettings.Local.json
+
+# PostgreSQL
+/data/
+/postgres_data/
+*.pid
+*.lock
+
+
+# Migraciones de EF Core (opcional, si prefieres no versionarlas)
+/Migrations/
+
+# Archivos de VS Code
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Docker
+docker-compose.override.yml
+*.dockerignore
+!.dockerignore

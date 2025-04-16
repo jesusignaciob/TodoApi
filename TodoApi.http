@@ -1,6 +1,6 @@
 @TodoApi_HostAddress = http://localhost:5274
 
-GET {{TodoApi_HostAddress}}/weatherforecast/
-Accept: application/json
+GET {{TodoApi_HostAddress}}/api/todos
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJ0ZXN0QGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ0NzMzMTA5LCJpc3MiOiJodHRwczovL3R1ZG9taW5pby5jb20iLCJhdWQiOiJodHRwczovL3R1ZG9taW5pby5jb20ifQ.xwwnmUuzNUCIKWXSAUmUczrPMCDSlerLprQ5NIH7H_A...
 
 ###
